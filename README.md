@@ -1,4 +1,4 @@
-# EOS Cochain - The Enterprise Blockchain Smart Contract Platform Powered by EOSIO Infrastructure
+# ShenWen Art Chain - The Enterprise Blockchain Smart Contract Platform Powered by EOSIO Infrastructure
 
 [![Build status](https://badge.buildkite.com/370fe5c79410f7d695e4e34c500b4e86e3ac021c6b1f739e20.svg?branch=master)](https://buildkite.com/EOSIO/eosio)
 
@@ -23,52 +23,6 @@ EOSIO is released under the open source MIT license and is offered “AS IS” w
 
 Block.one is neither launching nor operating any initial public blockchains based upon the EOSIO software. This release refers only to version 1.0 of our open source software. We caution those who wish to use blockchains built on EOSIO to carefully vet the companies and organizations launching blockchains based on EOSIO before disclosing any private keys to their derivative software.
 
-There is no public testnet running currently.
-
-**If you have previously installed EOSIO, please run the `eosio_uninstall` script (it is in the directory where you cloned EOSIO) before downloading and using the binary releases.**
-
-#### Mac OS X Brew Install
-```sh
-$ brew tap eosio/eosio
-$ brew install eosio
-```
-#### Mac OS X Brew Uninstall
-```sh
-$ brew remove eosio
-```
-#### Ubuntu 18.04 Debian Package Install
-```sh
-$ wget https://github.com/eosio/eos/releases/download/v1.7.3/eosio_1.7.3-1-ubuntu-18.04_amd64.deb
-$ sudo apt install ./eosio_1.7.3-1-ubuntu-18.04_amd64.deb
-```
-#### Ubuntu 16.04 Debian Package Install
-```sh
-$ wget https://github.com/eosio/eos/releases/download/v1.7.3/eosio_1.7.3-1-ubuntu-16.04_amd64.deb
-$ sudo apt install ./eosio_1.7.3-1-ubuntu-16.04_amd64.deb
-```
-#### Debian Package Uninstall
-```sh
-$ sudo apt remove eosio
-```
-#### Centos RPM Package Install
-```sh
-$ wget https://github.com/eosio/eos/releases/download/v1.7.3/eosio-1.7.3-1.el7.x86_64.rpm
-$ sudo yum install ./eosio-1.7.3-1.el7.x86_64.rpm
-```
-#### Centos RPM Package Uninstall
-```sh
-$ sudo yum remove eosio
-```
-#### Fedora RPM Package Install
-```sh
-$ wget https://github.com/eosio/eos/releases/download/v1.7.3/eosio-1.7.3-1.fc27.x86_64.rpm
-$ sudo yum install ./eosio-1.7.3-1.fc27.x86_64.rpm
-```
-#### Fedora RPM Package Uninstall
-```sh
-$ sudo yum remove eosio
-```
-
 ## Supported Operating Systems
 EOSIO currently supports the following operating systems:  
 1. Amazon 2017.09 and higher
@@ -92,6 +46,9 @@ EOSIO currently supports the following operating systems:
 <a name="gettingstarted"></a>
 ## Getting Started
 Instructions detailing the process of getting the software, building it, running a simple test network that produces blocks, account creation and uploading a sample contract to the blockchain can be found in [Getting Started](https://developers.eos.io/eosio-home/docs) on the [EOSIO Developer Portal](https://developers.eos.io).
+
+艺术链基于 EOSIO 软件堆栈进行底层深度定制和优化，但与上游 EOSIO 保持同步更新 Bug 修复和特性升级。开发者可通过 EOSIO 的开发者官网，了解如何搭建全节点和智能合约开发。艺术链与 EOSIO 差异的地方，对于上层开发者来说基本上保持透明。如果有特别需要注意的地方，这里会做出说明：
+- 目前没有提供已编译的二进制文件，需要自行编译。
 
 ## Contributing
 
